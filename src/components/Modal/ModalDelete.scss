@@ -1,0 +1,66 @@
+.ModalDelete {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .modal-content {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 20vw;
+
+    .title {
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .input{
+      margin-bottom: 20px;
+      input{
+        width: 100%;
+      }
+    }
+
+    .button-block {
+      display: flex;
+      justify-content: space-between;
+
+      button {
+        width: 100%;
+        border: none;
+        border-radius: 15px;
+        padding: 10px 0;
+      }
+
+      button:hover {
+        position: relative;
+        bottom: 4px;
+      }
+
+      .confirm {
+        width: 40%;
+
+        button {
+          background: white;
+          border: 1px solid black;
+        }
+      }
+
+      .cancel {
+        width: 40%;
+
+        button {
+          background: black;
+          color: white;
+        }
+      }
+    }
+  }
+
+}
