@@ -1,18 +1,21 @@
 .Product {
-  .edit{
+  .edit {
     text-align: end;
-    button{
-
+    button {
     }
   }
-  .product-content {
-    .image {
-      image {
 
+  .product-content {
+    display: flex;
+    .image {
+      width: 50%;
+      img {
+        width: 100%;
       }
     }
 
     .description {
+      margin: 0 auto;
       .name {
 
       }

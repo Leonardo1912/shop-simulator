@@ -1,0 +1,17 @@
+.ModalChangeProduct{
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .modal-content{
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 20vw;
+  }
+}

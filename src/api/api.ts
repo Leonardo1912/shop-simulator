@@ -15,6 +15,9 @@ export const ProductsListAPI = {
     addProduct(product:{}){
         return instance.post('', product)
     },
+    changeProduct(id?:string, product?:{}){
+        return instance.post(`/${id}`, product)
+    },
     deleteProduct(id:number){
         return instance.delete(`/${id}`)
     }
